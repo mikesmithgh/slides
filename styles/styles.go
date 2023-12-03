@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	salmon = lipgloss.Color("#E8B4BC")
+	salmon = lipgloss.Color("#8faa80")
 )
 
 var (
@@ -23,7 +23,7 @@ var (
 	Author = lipgloss.NewStyle().Foreground(salmon).Align(lipgloss.Left).MarginLeft(2)
 	// Date is the style for the date text in the bottom-left corner of the
 	// presentation.
-	Date = lipgloss.NewStyle().Faint(true).Align(lipgloss.Left).Margin(0, 1)
+	Date = lipgloss.NewStyle().Foreground(lipgloss.Color("#968c81")).Align(lipgloss.Left).Margin(0, 1)
 	// Page is the style for the pagination progress information text in the
 	// bottom-right corner of the presentation.
 	Page = lipgloss.NewStyle().Foreground(salmon).Align(lipgloss.Right).MarginRight(3)
@@ -35,6 +35,10 @@ var (
 	// Search is the style for the search input at the bottom-left corner of
 	// the screen when searching is active.
 	Search = lipgloss.NewStyle().Faint(true).Align(lipgloss.Left).MarginLeft(2)
+
+	KittyIcon = lipgloss.NewStyle().Foreground(lipgloss.Color("#754b33")).Align(lipgloss.Left).MarginLeft(2)
+	HeartIcon = lipgloss.NewStyle().Foreground(lipgloss.Color("#ff6961")).Align(lipgloss.Left).MarginLeft(1)
+	Vimicon   = lipgloss.NewStyle().Foreground(lipgloss.Color("#8faa80")).Align(lipgloss.Left).MarginLeft(1)
 )
 
 var (

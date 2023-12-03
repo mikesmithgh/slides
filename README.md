@@ -1,3 +1,17 @@
+# Modified for Neovim Conf 2023
+
+[kitty-scrollback.nvimconf](https://github.com/mikesmithgh/kitty-scrollback.nvimconf)
+
+## ⚡️ Neovim Conf 2023: Developing kitty-scrollback.nvim
+> Check out my lighting talk on Dec 8<sup>th</sup> at Neovim Conf 2023 about kitty-scrollback.nvim!
+<a href="https://neovimconf.live/speakers/mikesmith">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mikesmithgh/mikesmithgh/assets/10135646/2e356e56-611b-4353-adbf-31dfa9e7dd8f">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/mikesmithgh/mikesmithgh/assets/10135646/2e356e56-611b-4353-adbf-31dfa9e7dd8f">
+    <img alt="mike at nvimconf" src="https://github.com/mikesmithgh/mikesmithgh/assets/10135646/2e356e56-611b-4353-adbf-31dfa9e7dd8f">
+  </picture>
+</a>
+
 # Slides
 
 Slides in your terminal.

@@ -221,7 +221,7 @@ func (m Model) View() string {
 		left = m.Search.SearchTextInput.View()
 	} else {
 		// render author and date
-		left = styles.Author.Render(m.Author) + styles.Date.Render(m.Date)
+		left = styles.KittyIcon.Render("󰄛") + styles.HeartIcon.Render("") + styles.Vimicon.Render("") + styles.Date.Render(m.Date)
 	}
 
 	right := styles.Page.Render(m.paging())
